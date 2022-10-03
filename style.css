@@ -3,3 +3,50 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  
+}
+nav .a{
+  display: flex;
+  justify-content: space-around;
+}
+
+#featured-property{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+  
+  
+  
+}
+#featured-property p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+ 
+
+}
+#details{
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  
+}
+#details .div{
+  float: left;
+  width: 25%;
+}
+
